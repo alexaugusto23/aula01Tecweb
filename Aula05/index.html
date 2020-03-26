@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>Aula 05</title>
+  </head>
+  <body>
+    <h1>Aula 05</h1>
+    Exemplo de uma lista não ordenada
+    <!--ul: unordered list (lista não ordenada)  -->
+    <ul>
+        <li>item dois</li>
+        <li>item um</li>
+        <li>item cinco</li>
+        <li>item três</li>
+        <li>item quatro</li>
+        <li>item etc</li>
+    </ul>
+
+    Exemplo de uma lista ordenada
+    <!-- ol: ordered list (lista ordenada) -->
+    <ol>
+        <li>item um</li>
+        <li>item dois</li>
+        <li>item três</li>
+        <li>item quatro</li>
+        <ul>
+            Adicionamos uma lista não ordenada aninhada
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+        </ul>
+        <li>item cinco</li>
+        <li>item etc</li>
+    </ol>
+    <!-- Criar uma Tabela -->
+    Criando uma tabela
+    <table border="1"> 
+        <!-- TR (table row: fila da tabela) -->
+        <tr>
+            <th>Cabeçalho 1</th>
+            <th>Cabeçalho 2</th>
+        </tr>
+        <tr>
+            <td>Fila 1 /coluna 1</td>
+            <td>Fila 1 /coluna 2</td>
+        </tr>
+        <tr>
+            <td>Fila 2 /coluna 1</td>
+            <td>Fila 2 /coluna 2</td>
+        </tr>
+        <tr>
+            <td>Fila 3 /coluna 1</td>
+            <td>Fila 3 /coluna 2</td>
+        </tr>
+        <tr>
+            <td>Fila 4 /coluna 1</td>
+            <td>Fila 4 /coluna 2</td>
+        </tr>
+    </table>
+
+    <!-- Marcadores de Divisão
+    A primeira tag Div
+    <div style="background-color: brown;">
+        A primeira tag Div
+    </div>
+    <div style="background-color: rgb(0, 182, 106);">
+        A primeira tag Div
+    </div> -->
+
+    <!-- Criação de Formulários -->
+    <p></p>
+    <h2>Formulario</h2>
+    <form action="http://juliom6.pythonanywhere.com/contato" method="POST">
+        <div>
+            <label for="id_nome">Nome: </label>
+            <input type="text" id="id_nome" required required maxlength="20" name="nome"/>
+            <p></p>
+        </div>
+        <div>
+            <label for="id_email">Email: </label>
+            <input type="email" id="id_email" required maxlength="30" name="email"/>
+            <p></p>
+        </div>
+        <div>
+            <label for="id_mensagem">Mensagem: </label>
+            <textarea name="mensagem" type="" id="id_mensagem" cols="30" rows="10" required ></textarea>
+            <p></p>
+        </div>
+        <p></p>
+        <input type="submit" value="Enviar" >
+        <p></p>
+
+    </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
