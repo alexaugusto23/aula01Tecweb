@@ -1,0 +1,16 @@
+h3 {
+    background-color: blueviolet;
+    text-align: right;
+}
+p {color: coral;}
+#id_paragrafo{color: rgb(red);}
+/* #id_paragrafo2{color: rgb(0,10,0);} */
+#id_paragrafo2{color: #ff0000;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+/* text-transform: uppercase; */
+text-transform: capitalize;
+/* text-decoration: underline; */
+}
